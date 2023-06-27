@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ImageMagic - Powerful Image Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <h1>PicSearch</h1>
+    <p>Now You Can search Images with PicSearch</p>
+    </div>
+     
+    <form id="search-form">
+        
+        <input type="text" id="search-box" placeholder="Search images" required>
+        
+        <button type="submit">Search</button>
+    </form>
+    
+    <div id="search-result"></div>
+    
+    <button id="show-more-btn" style="display: none;">Show More</button>
+    
+    <div id="image-modal">
+        <div id="modal-content">
+            <img id="modal-image" src="" alt="">
+            <div id="modal-buttons">
+                <button class="view-btn">View</button>
+                <a id="download-link" href="" download><button class="download-btn">Download</button></a>
+            </div>
+        </div>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
