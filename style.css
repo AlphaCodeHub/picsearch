@@ -4,7 +4,9 @@
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
-
+#navbarright{
+  padding-right: 650px;
+}
 
 .container {
     display: flex;
@@ -224,3 +226,4 @@ form button:hover {
     }
   }
   
+ 
